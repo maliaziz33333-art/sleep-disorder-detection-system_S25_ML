@@ -1,0 +1,26 @@
+Project
+Sleep Disorder Detection System
+
+Problem:
+A lot of people walk around with sleep problems they do not even know they have. Things like Insomnia and Sleep Apnea. Down the road, these can cause harm. Think heart disease, tiredness and days where you just cannot get things done. Now, the usual way to find out is a sleep study at a clinic. That costs a lot. Takes up your whole night. We need something easier. A tool that runs on its own and can flag sleep issues just from everyday habits and simple health numbers.
+Project Objectives:
+•	To look at the things in a persons life and body that shape sleep health. This means sleep hours, stress, how much they move, BMI, heart rate and blood pressure.
+•	To build Machine Learning models and put them side by side. The goal is to see which one best predicts sleep disorders (None, Insomnia, Sleep Apnea).
+•	To make an simple screen where anyone can type in their daily numbers and get a quick first idea of their risk.
+
+Proposed Methodology
+1. Data Collection: We will use health data that anyone can access (like the Sleep Health and Lifestyle Dataset from Kaggle).
+
+2. Data Preprocessing: We will fill in gaps, turn text categories into numbers (Gender, Occupation, BMI Category) and scale the number-based features.
+
+3. Model Evaluation: We will train supervised classification methods. These include Random Forest, XGBoost, Support Vector Machine (SVM) and Logistic Regression. We will score them on Accuracy, Precision, Recall and F1-Score to find the one.
+
+4. Deployment: The winning model goes into a light web app. We will use Streamlit. Flask so predictions show up away.
+
+ Technologies:
+Programming Language: Python
+Data Analysis & ML Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib/Seaborn
+Web Framework:  Streamlit / Flask
+
+Expected Outcome
+A working early version that can tell if someone may be at risk of Insomnia, Sleep Apnea or has sleep. It should do this with accuracy. The point is to give people a heads-up and nudge them to see a doctor in time.
